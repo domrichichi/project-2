@@ -9,25 +9,43 @@ html {
 header {
 	background-color:#e7001d;
 	color: white;
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:10px;
 }
 
-header p {
+h1{
+	text-shadow: #222 2px 2px 3px;
+	width: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	text-shadow: #222 2px 2px 2px;
+	text-align:center;
+	font-size:3.5em;
+	position: absolute;
+	left: 0;
+	top: -20px;
+}
+
+.head {
 	font-size: 5em;
 	margin: 0;
 	text-shadow: #222 2px 2px 3px;
 	text-align:center;
 	font-size:2.5em;
+	position: absolute;
 }
 
-header h1 {
-	font-family: 'Noto Sans', sans-serif;
-	text-shadow: #222 2px 2px 2px;
-	text-align:center;
-	font-size:1em;
+i {
+	font-style: normal;
 }
 
 .medallion {
-	width: 33.3333%;
+	width: 120px;
+}
+
+small {
+	font-size: 0.8rem;
+	display: block;
 }
 
 body {
@@ -38,11 +56,35 @@ body {
 	width: 100%;
 }
 
-nav li{
-	width:30%;
-	border: 2px solid #111111;
-	float:left;
-	list-style-type: none;
+nav {
 	background-color:#222222;
+	text-align: center;
+}
+
+nav ol{
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
 	color: white;
+	text-decoration: none;
+}
+
+nav li {
+	border: 1px solid black ;
+	list-style-type: none;
+	font-family: 'Noto Sans', sans-serif;
+	width: 50%;
+	margin: 0;
+	display: inline-block;
+	padding: 4px;
+}
+
+.right {
+	clear: left;
+}
+
+.left {
+	float: left;
 }
