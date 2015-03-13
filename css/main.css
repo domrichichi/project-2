@@ -56,6 +56,18 @@ body {
 	width: 100%;
 }
 
+h4 {
+	text-shadow: #222 2px 2px 3px;
+	color: white;
+	position:absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	font-style: italic;
+	bottom: 270px;
+}
+
 nav {
 	background-color:#222222;
 	text-align: center;
@@ -80,6 +92,7 @@ nav li {
 	display: inline-block;
 	padding: 4px;
 }
+
 
 .right {
 	clear: left;
