@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+header {
+	background-color:#e7001d;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700px;
+	color: white;
+}
+
+body {
+	margin:0;
+}
+
+.banner {
+	width: 100%;
+}
+
+nav li{
+	width:30%;
+	border: 2px solid #111111;
+	float:left;
+	list-style-type: none;
+	background-color:#222222;
+	color: white;
+}
