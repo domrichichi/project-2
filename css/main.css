@@ -8,9 +8,26 @@ html {
 
 header {
 	background-color:#e7001d;
-	font-family: 'Noto Sans', sans-serif;
-	font-weight: 700px;
 	color: white;
+}
+
+header p {
+	font-size: 5em;
+	margin: 0;
+	text-shadow: #222 2px 2px 3px;
+	text-align:center;
+	font-size:2.5em;
+}
+
+header h1 {
+	font-family: 'Noto Sans', sans-serif;
+	text-shadow: #222 2px 2px 2px;
+	text-align:center;
+	font-size:1em;
+}
+
+.medallion {
+	width: 33.3333%;
 }
 
 body {
