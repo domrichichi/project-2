@@ -54,24 +54,29 @@ body {
 
 .banner {
 	width: 100%;
+	display: block;
 }
 
 h4 {
 	text-shadow: #222 2px 2px 3px;
 	color: white;
 	position:absolute;
-	bottom: 0px;
 	text-align: center;
 	width: 100%;
 	font-size: 1.5em;
 	font-style: italic;
 	bottom: 280px;
 	font-family: 'Noto Sans', sans-serif;
+
+}
+
+bannerz. {
+	position: relative
 }
 
 nav {
 	background-color:#222222;
-	text-align: center;
+	text-align: left;
 }
 
 nav ol{
@@ -94,6 +99,10 @@ nav li {
 	padding: 4px;
 }
 
+.birth-like {
+	text-align: left;
+	margin: 0.5em;
+}
 
 .right {
 	clear: left;
@@ -103,22 +112,57 @@ nav li {
 	float: left;
 }
 
-p {
-	margin-left: 20px;
-}
-
 .dragon-div {
-	background-color: #e4c22a
+	background-color: #e4c22a;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	padding: 0.5em;
 }
 
 .goat-div {
-	background-color: #222222
+	background-color: #222222;
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	font-family: 'Noto Sans', sans-serif;
+		padding: 0.5em;
+}
+
+.goat-div p {
+	color: white;
 }
 
 .rooster-div {
-	background-color: #bc0017
+	background-color: #bc0017;
+	text-align: center;
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+	padding: 0.5em;
+}
+
+.rooster-div p {
+	color: white;
 }
 
 .ox-div {
-	background-color: #e4c22a
+	background-color: #e4c22a;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	padding: 0.5em;
+}
+
+div img {
+	width:40%;
+}
+
+footer {
+	background-color: #222222;
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
 }
